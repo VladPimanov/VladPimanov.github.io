@@ -1,0 +1,104 @@
+.header{
+    background-color: rgb(70, 7, 129);
+}
+.logo__title{
+    color: beige;
+
+}
+
+.menu{
+    list-style: none;
+
+}
+.menu__link{
+    color: beige;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container,.header__logo,.header__menu,.menu{
+    display: flex;
+}
+.container{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.header__menu{
+    width: 50%;
+}
+
+.menu{
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 15%;
+}
+.banner{
+    background-image:url('img/banner-bg.jpg');
+    height:400px;
+    text-align: center;
+    padding-top: 150px;
+}
+.banner__title{
+    color: beige;
+    font-size:56px;
+    margin-bottom: 10px;
+}
+.banner__description{
+    color: beige;
+    font-size: 24px;
+}
+.products__title{
+    font-size: 32px ;
+    margin-bottom: 10px;
+    
+}
+.card{
+    box-shadow: -2px -5px 73px 0px rgba(184,57,57,0.64);
+    width: 25%;
+    text-align: center;
+    padding: 25px 10px;
+    display:inline-block;
+    margin: 25px;
+
+}
+.card__title{
+    font-size:28px;
+    color:rgb(104, 13, 190);
+}
+.card__description{
+    font-size: 14px;
+    color: rgb(104, 13, 190);
+}
+.card__link{
+    text-decoration:none;
+    background-color: blueviolet ;
+    color:rgb(255, 255, 255);
+    padding: 10px 25px 10px 25px;
+    border-radius:10px;
+    transition: all .3s ease-in-out;
+}
+.card__link:hover{
+    background-color: rgb(36, 6, 65);
+    color:rgb(182, 128, 236);
+    
+}
+.cards{
+    text-align: center;
+}
+.card__img{
+    width: 100px;
+    height: 200px;
+    
+}
+.footer{
+    background-image:url("img/footer-bg.jpg");
+    /* min-height: 170px; */
+    text-align: center;
+    padding: 180px;
+}
+.copyright{
+    color: aliceblue;
+    font-size: 24px;
+}
